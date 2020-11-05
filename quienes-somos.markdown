@@ -10,4 +10,4 @@ Un pequeño grupo se organiza y cariñosamente surge el nombre **Escuelita Breve
 								
 Actualmente nos consideramos una comunidad de ciclistas de edades e intereses diversos que se apoyan y convergen en una misma pasión: la bicicleta.								
 
-Nos puedes encontrar en www.instagram.com/quenotefalteaire
+Nos puedes encontrar en [instagram.com/quenotefalteaire](https://www.instagram.com/quenotefalteaire)
