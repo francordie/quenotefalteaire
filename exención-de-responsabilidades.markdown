@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Exención de responsabilidad
-permalink: /exención-de-responsabilidades/
+title: Documento de exención de responsabilidad
+permalink: /exencion-de-responsabilidades/
 ---
-
-# DOCUMENTO DE EXENCIÓN DE RESPONSABILIDAD
 
 Declaro conocer, por haber sido informado de ello, estando satisfecho con la información recibida y
 pudiendo haber formulado las preguntas convenientes y aclarado todas mis dudas, de los riesgos
