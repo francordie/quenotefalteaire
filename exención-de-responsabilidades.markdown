@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documento de exención de responsabilidad
+title: Exención de responsabilidad
 permalink: /exencion-de-responsabilidades/
 ---
 
