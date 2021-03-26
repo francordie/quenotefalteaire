@@ -4,7 +4,7 @@ title: ¿Quiénes somos?
 permalink: /quienes-somos/
 ---
 
-![Que no te falte el aire](/bandera-escuelita.png "Bandera escuelita")
+![Que no te falte el aire](/imgs/bandera-escuelita.png "Bandera escuelita")
 
 La génesis de la escuelita está en el ciclismo de ultra distancia no competitivo, específicamente en las brevet. En estas pruebas se generó cercanía y compañerismo entre los participantes debido al rigor de las experiencias compartidas, y desde ahí nace la idea de prepararse física y mentalmente para superar nuestros límites personales.								
 								
