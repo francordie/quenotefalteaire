@@ -236,7 +236,10 @@ forms.gle/eKDdQpeieoMYi8Vv7</a>
             <h2><a href="https://www.bicineta.cl/fase-ultra">www.bicineta.cl/fase-ultra</a></h2>
             <br>
           </div>
-          <table>
+          <p style="text-align: center">
+            <a href="#" id='show-table'>Ver lista de inscritos</a>
+          </p>
+          <table id='fase-ultra-table' style='display: none'>
             <thead>
               <tr>
                 <th>Número</th>
@@ -582,6 +585,17 @@ forms.gle/eKDdQpeieoMYi8Vv7</a>
       </div>
     </div>
   </footer>
+  <script type="text/javascript">
+    let table = document.getElementById('fase-ultra-table');
+    let btn = document.getElementById('show-table');
+    btn.addEventListener
+    btn.addEventListener('click', function(event) {
+      console.log('clicked');
+      table.style.display = '';
+      event.preventDefault();
+      btn.display = 'none';
+    })
+  </script>
 </body>
 
 </html>
