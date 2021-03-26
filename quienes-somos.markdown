@@ -4,7 +4,7 @@ title: ¿Quiénes somos?
 permalink: /quienes-somos/
 ---
 
-![Que no te falte el aire](/imgs/bandera-escuelita.png "Bandera escuelita")
+![Que no te falte el aire](/imgs/escuelita-covid.jpeg "Entrenamiento semanal de la escuelita")
 
 La génesis de la escuelita está en el ciclismo de ultra distancia no competitivo, específicamente en las brevet. En estas pruebas se generó cercanía y compañerismo entre los participantes debido al rigor de las experiencias compartidas, y desde ahí nace la idea de prepararse física y mentalmente para superar nuestros límites personales.								
 								
@@ -14,3 +14,5 @@ Actualmente nos consideramos una comunidad de ciclistas de edades e intereses di
 
 
 Nos puedes encontrar en [instagram.com/quenotefalteaire](https://www.instagram.com/quenotefalteaire)
+
+![Que no te falte el aire](/imgs/bandera-escuelita.png "Bandera escuelita")
