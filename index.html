@@ -52,6 +52,45 @@
       <div class="home">
         <ul class="post-list">
           <li>
+            <span class="post-meta">Abr 26, 2021</span>
+            <h1>
+              <a href="" class="post-link">
+                Desafío 3x3 Altimetría
+              </a>
+            </h1>
+            <p>
+              Desafío 3x3 en su segunda versión, esta vez pondremos a prueba tus capacidades para escalar. Quién se anima?
+              El <b>sábado 8 de mayo</b> cada equipo, conformado por <b>3 integrantes</b>, debe registrar una ruta libre de <b>6 a 9 de la mañana</b>.
+              No es necesario que los integrantes del equipo estén juntos.
+            </p>
+            <p class="centered">
+              <a href="imgs/3x3-altimetria/afiche.jpeg">
+                <img src="imgs/3x3-altimetria/afiche.jpeg" alt="Afiche Desafío 3x3 Altimetría" style="max-height: 400px;">
+              </a>
+            </p>
+            <p>
+              Esta vez lo que importa son los metros subidos, no tus kilómetros. Tendrémos 3 niveles a superar y la suma de la altimetría de los 3 integrantes debe ser igual o mayor a la altura de cada nivel:
+              <ul>
+                <li>Nivel 1 <b>Volcán Puntiagudo</b> 2493 mts.</li>
+                <li>Nivel 2 <b>Cerro el Plomo</b> 5424 mts.</li>
+                <li>Nivel 3 <b>Nevado Ojos del Salado</b> 6893 mts.</li>
+              </ul>
+            </p>
+            <p>Por ejemplo, para que un equipo alcance el nivel 2 del Cerro el Plomo deberían hacer, en promedio, 1808 m de desnivel por persona. El equivalente a 600 m por hora. Alcanzable?</p>
+            <p class="centered">
+              <a href="imgs/3x3-altimetria/instrucciones.jpeg">
+                <img src="imgs/3x3-altimetria/instrucciones.jpeg" alt="Instrucciones Desafío 3x3 Altimetría" style="max-height: 400px;">
+              </a>
+            </p>
+            <div class="centered" style="font-size: larger; border: 1px solid; padding: 10px;">
+              <h2>Inscripciones abiertas</h2>
+              <p>Revisa el <a href="https://www.instagram.com/quenotefalteaire">instagram de la escuelita para </a> el formulario de inscripción.</p>
+              <p>El valor por equipo es de $9.000, a beneficio de <a href="https://www.instagram.com/valitaisla">@valitaisla</a>, quien sigue en su lucha contra la leucemia.</p>
+            </div>
+            <br>
+            <p>Motívate, participa y comparte!</p>
+          </li>
+          <li>
             <span class="post-meta">Abr 6, 2021</span>
             <h1>
               <a href="" class="post-link">
@@ -129,7 +168,12 @@
             <p class="centered">
               ¡Atentos al instagram de la escuelita <a href="https://www.instagram.com/quenotefalteaire">@quenotefalteaire</a> para el próximo desafío!
             </p>
-            <table class="centered">
+            <br>
+            <p class="centered">
+              <a href="#" id='show-200km3x3-table' style="border: 1px solid; padding: 10px; text-align: center;"><b>VER KILOMETRAJES POR EQUIPO</b></a>
+            </p>
+            <br>
+            <table class="centered" id="200km3x3-table" style="display: none">
               <thead>
                 <tr>
                   <th>Kilometraje</th>
@@ -809,7 +853,7 @@
           <p class="centered">
             <a href="#" id='show-fase-ultra-table' style="border: 1px solid; padding: 10px; text-align: center;"><b>VER LISTA DE INSCRITOS</b></a>
           </p>
-          <table id='fase-ultra-table' class="hide">
+          <table id='fase-ultra-table' style="display: none">
             <thead>
               <tr>
                 <th>Número</th>
@@ -1166,13 +1210,14 @@
 
     function toggleUltraTable(btn, table) {
       btn.addEventListener('click', function(event) {
+        console.log("clicked", btn)
         table.style.display = '';
         btn.style.display = 'none';
         event.preventDefault();
       });
     }
 
-    // toggleUltraTable(btn200km3x3, table200km3x3);
+    toggleUltraTable(btn200km3x3, table200km3x3);
     toggleUltraTable(btnFaseUltra, tableFaseUltra);
   </script>
 </body>
