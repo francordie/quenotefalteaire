@@ -2,8 +2,36 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 title: | Escuelita Ultra
 ---
 
-{% include historic.html %}
+<ul class="post-list">
+  {% include variante-ultra.html %}
+  {% include 3x3-altimetria.html %}
+  {% include 3x3-200km.html %}
+  {% include fase-ultra.html %}
+</ul>
+
+<script type="text/javascript">
+  let tableFaseUltra = document.getElementById('fase-ultra-table');
+  let btnFaseUltra = document.getElementById('show-fase-ultra-table');
+
+  let table200km3x3 = document.getElementById('200km3x3-table');
+  let btn200km3x3 = document.getElementById('show-200km3x3-table');
+
+  function toggleUltraTable(btn, table) {
+    if (btn == null || table == null)
+      return;
+
+    btn.addEventListener('click', function(event) {
+      console.log("clicked", btn)
+      table.style.display = '';
+      btn.style.display = 'none';
+      event.preventDefault();
+    });
+  }
+
+  toggleUltraTable(btn200km3x3, table200km3x3);
+  toggleUltraTable(btnFaseUltra, tableFaseUltra);
+</script>

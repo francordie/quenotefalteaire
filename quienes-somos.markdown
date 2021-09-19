@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: ¿Quiénes somos?
 permalink: /quienes-somos/
 ---

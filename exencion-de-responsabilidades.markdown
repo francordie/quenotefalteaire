@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Exención de responsabilidad
 permalink: /exencion-de-responsabilidades/
 ---
