@@ -7,6 +7,7 @@ title: | Escuelita Ultra
 ---
 
 <ul class="post-list">
+  {% include de-vuelta-a-las-ultra.html %}
   {% include variante-ultra.html %}
   {% include 3x3-altimetria.html %}
   {% include 3x3-200km.html %}
