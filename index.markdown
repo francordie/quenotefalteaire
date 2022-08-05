@@ -16,6 +16,9 @@ title: | Escuelita Ultra
 </ul>
 
 <script type="text/javascript">
+  let tableVarianteUltra = document.getElementById('variante-ultra-table');
+  let btnVarianteUltra = document.getElementById('show-variante-ultra-table');
+
   let tableFaseUltra = document.getElementById('fase-ultra-table');
   let btnFaseUltra = document.getElementById('show-fase-ultra-table');
 
@@ -36,4 +39,5 @@ title: | Escuelita Ultra
 
   toggleUltraTable(btn200km3x3, table200km3x3);
   toggleUltraTable(btnFaseUltra, tableFaseUltra);
+  toggleUltraTable(btnVarianteUltra, tableVarianteUltra);
 </script>

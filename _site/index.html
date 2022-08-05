@@ -95,13 +95,13 @@
   <br />
   <p>Serán premiados:  el equipo,  la mujer y el hombre que acumulen más kilómetros.</p>
 
-  <h3>INSCRIPCIONES ABIERTAS</h3>
+  <h3>INSCRIPCIONES CERRADAS</h3>
   <p>La inscripción del equipo tiene un valor mínimo de $9.000 pesos, dinero que irá en directa ayuda de Mónica, integrante de la escuelita,
     víctima de un asalto en el que perdió su bicicleta y equipamiento de ultra ciclismo.</p>
-
+<!-- 
   <p class="centered highlighted btn-inscripcion">
     <a href="https://forms.gle/yJAfxXTXzGxrLDwq6">QUIERO INSCRIBIRME</a>
-  </p>
+  </p> -->
 
   <p>No olvides enviarnos el comprobante de pago de tu inscripción a <a class="u-email" href="mailto:quenotefalteaire@gmail.com">quenotefalteaire@gmail.com</a> luego de completar el formulario y
     estar atento al <a href="https://www.instagram.com/quenotefalteaire"> instagram de la escuelita</a> para las últimas novedades.</p>
@@ -253,18 +253,18 @@
   </table>
 
   <h2>
-    Inscripciones abiertas
+    Inscripciones cerradas
   </h2>
   <p>
     Este evento cuenta con una <b>inscripción de $10.000 a beneficio</b> de nuestro escuelito Maldo con el fin de poder cubrir parte de los gastos médicos que tuvo que manejar por una operación médica (de la cual ya se encuentra fírmemente pedaleando otra vez!).      
   </p>
+<!--   
   <p>
     Para oficializar tu aporte y tu participación debes completar <a href="https://forms.gle/PRrG39zGcJq3FJMx7">el formulario</a>:
   </p>
-  
   <p class="centered highlighted btn-inscripcion">
     <a href="https://forms.gle/PRrG39zGcJq3FJMx7">QUIERO INSCRIBIRME</a>
-  </p>  
+  </p>   -->
 
   <p>No olvides enviarnos el comprobante de pago de tu inscripción luego de completar el formulario y estar atento al <a href="https://www.instagram.com/quenotefalteaire"> instagram de la escuelita</a> para las últimas novedades.</p>
 </li>
@@ -336,7 +336,10 @@
   <h2>Resultados</h2>
   <p>A continuación las cifras de todos participantes con sus tiempos de llegada en cada punto de control</p>
 
-  <table>
+  <p class="centered">
+    <a href="#" id="show-variante-ultra-table" style="border: 1px solid; padding: 10px; text-align: center;"><b>VER LISTA DE INSCRITOS</b></a>
+  </p>
+  <table id="variante-ultra-table" style="display: none">
     <thead>
       <tr>
         <th>Ciclista</th>
@@ -2385,6 +2388,9 @@
 </ul>
 
 <script type="text/javascript">
+  let tableVarianteUltra = document.getElementById('variante-ultra-table');
+  let btnVarianteUltra = document.getElementById('show-variante-ultra-table');
+
   let tableFaseUltra = document.getElementById('fase-ultra-table');
   let btnFaseUltra = document.getElementById('show-fase-ultra-table');
 
@@ -2405,6 +2411,7 @@
 
   toggleUltraTable(btn200km3x3, table200km3x3);
   toggleUltraTable(btnFaseUltra, tableFaseUltra);
+  toggleUltraTable(btnVarianteUltra, tableVarianteUltra);
 </script>
 
 
