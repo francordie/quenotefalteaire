@@ -23,7 +23,7 @@ email: quenotefalteaire@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Escuelita Ultra. Que no te falte el aire! Y si te llega a faltar, que sea entrenando y no en la ruta ...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://francordie.github.io/quenotefalteaire/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
