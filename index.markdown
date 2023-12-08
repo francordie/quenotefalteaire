@@ -8,13 +8,13 @@ title: | Escuelita Ultra
 
 <ul class="post-list">
   <li>
-    <span class="post-meta">Nov 22, 2023</span>
+    <span class="post-meta">Dic 08, 2023</span>
     <h1>
       <a href="" class="post-link">
         Calendario 2024
       </a>
     </h1>
-    <p>Pronto más información sobre los nuevos desafíos del 2024 ... 👀</p>
+    <p>Pronto más información sobre los nuevos desafíos y pichangas del 2024 ... 👀</p>
   </li>
   {% include ultracat-biciados.html %}
   {% include 3x3-200km-mona.html %}
