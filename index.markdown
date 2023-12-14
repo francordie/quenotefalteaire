@@ -7,6 +7,7 @@ title: | Escuelita Ultra
 ---
 
 <ul class="post-list">
+  {% include campeonato-ultra.html %}
   <li>
     <span class="post-meta">Dic 08, 2023</span>
     <h1>
