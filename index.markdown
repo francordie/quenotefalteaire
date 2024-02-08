@@ -7,6 +7,7 @@ title: | Escuelita Ultra
 ---
 
 <ul class="post-list">
+  {% include campeonato-ultra-1.html %}
   {% include campeonato-ultra.html %}
   {% include pichanga-lo-vasquez.html %}
   <li>
