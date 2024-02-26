@@ -7,6 +7,10 @@ title: | Escuelita Ultra
 ---
 
 <ul class="post-list">
+  {% include pichanga-cuestas-y-tuneles.html %}
+  {% include ranking.html %}
+  {% include resultados-pichanga-ccc.html %}
+  {% include resultados-pichanga-andina.html %}
   {% include campeonato-ultra-1.html %}
   {% include campeonato-ultra.html %}
   {% include pichanga-lo-vasquez.html %}
